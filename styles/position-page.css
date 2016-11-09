@@ -4,6 +4,7 @@
 */
 .top-gray {
 	position: fixed;
+	top: 0;
 	background-color: gray;
 	height: 80px;
 	width: 100%;
@@ -24,15 +25,19 @@
 	display: inline-block;
 }
 
-.menu-item {
+.list-menu li a:visited {
+	color: orange;
+}
+
+.list-menu li {
 	color: purple;
 	display: inline-block;
 }
-/*
+
 body {
 	background: url(../images/outerspace_landscape.jpeg) no-repeat;
 	background-size: cover;
-}*/
+}
 
 .green-box {
 	border: 10px green dotted;
@@ -41,17 +46,23 @@ body {
 	width: 600px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 150px;
+	margin-top: 230px;
 }
 
 .cat-pic {
 	width: 200px;
 	height: 200px;
+	position: absolute;
+	top: -100px;
+	left: -100px;
 }
 
 .dog-pic {
 	width: 200px;
 	height: 200px;
-	bottom: -120px;
-	
-}
+	position: absolute;
+	bottom: -100px;
+	right: -100px;
+	}
+
+
